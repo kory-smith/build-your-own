@@ -4,6 +4,9 @@
   "devDependencies": {
     "bun-types": "latest"
   },
+  "scripts": {
+    "start:hot": "bun build index.jsx --watch --target=browser --outfile=bundled.js"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
